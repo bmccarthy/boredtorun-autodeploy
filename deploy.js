@@ -15,7 +15,7 @@ function deployCode(){
     var id = 'btr-' + (new Date().getTime().toString());
     console.log('new id: ' + id);
 
-    var command = '/home/bmccarthy/boredtorun-release/deploy.sh ' + id;
+    var command = __dirname  +'/deploy.sh ' + id;
 
     var child = exec(command, // command line argument directly in string
       function (error, stdout, stderr) { // one easy function to capture data/errors
