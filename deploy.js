@@ -1,8 +1,6 @@
 var githubhook = require('githubhook');
 var _ = require('underscore');
-var util = require('util');
 var exec = require('child_process').exec;
-var execFile = require('child_process').execFile;
 
 var deployCodeThreshold = 60*1000; // triggers every minute
 var github = githubhook({port: 9001});
