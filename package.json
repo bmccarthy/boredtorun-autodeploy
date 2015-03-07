@@ -1,0 +1,23 @@
+{
+  "name": "boredtorun-release",
+  "version": "1.0.0",
+  "description": "",
+  "main": "deploy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bmccarthy/boredtorun-autodeploy.git"
+  },
+  "author": "",
+  "license": "MIR",
+  "bugs": {
+    "url": "https://github.com/bmccarthy/boredtorun-autodeploy/issues"
+  },
+  "homepage": "https://github.com/bmccarthy/boredtorun-autodeploy",
+  "dependencies": {
+    "githubhook": "^1.1.3",
+    "underscore": "^1.8.2"
+  }
+}
