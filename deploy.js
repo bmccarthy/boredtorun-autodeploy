@@ -25,7 +25,7 @@ function deployCode(){
     });
 }
 
-github.on('*:boredtorun:ref/heads/master', function (event, repo, ref, data) {
+github.on('*:boredtorun:ref/heads/master', function (event, repo) {
     console.log('message recieved for repo: ' + repo);
     _.debounce(changeMeter, deployCodeThreshold)
 });
